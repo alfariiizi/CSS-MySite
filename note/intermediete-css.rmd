@@ -1,0 +1,13 @@
+# Intermediate CSS
+
+## Seizing font
+
+Satuan - satuan pada size: **em** vs **px** vs **rem**
+
+1.  **px** atau pixel adalah satuan yang cukup sering digunakan karena lebih bisa diperkirakan secara real letaknya.
+2.  em menggunakan satuan 16px, sehingga **_1em = 100% = 16px_**. _Kelemahan_ penggunaan em adalah **em akan memiliki relativitas terhadap size em pada parent nya**. Misalnya saja jika suatu div berada diatas body, maka jika _body memiliki rule **10em**_ dan jika _div memiliki rule **14em**_, maka rule yang diterapkan pada div tersebut adalah **10 + 14**, yakni **24em**
+3.  **rem** adalah satuan yang sama seperti em, namun memiliki dapat menutupi kekurangan em, yakni **tidak akan terpengaruh pada rule yang ada di parrent nya**.
+
+**em dan rem** adalah size yang berjenis **dynamic**, sedangkan px adalah satuan yang berjenis **static**
+
+Static hanyalah terpengaruh pada zoom-in dan zoom-out dari suatu website, sedangkan dynamic akan berpengaruh pada zoom-in, zoom-out, dan tipe content web yang ditampilkan (medium, large, very large, dst.).
