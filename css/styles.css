@@ -1,8 +1,4 @@
 
-.intro{
-  background-color: #e4f9f5;
-  padding-top: 150px;
-}
 
 body{
   margin: 0;
@@ -30,12 +26,8 @@ h3{
   color: #11999e
 }
 
-a{
-  color: #11999e
-}
-
 p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 hr{
@@ -43,37 +35,88 @@ hr{
   border-style: dotted none none none;
   border-width: 8px;
   width: 5%;
+  color: #c8d4d4;
 }
 
-.underline{
-  text-decoration: underline;
-}
 
-.bottom-cloud{
-  position: absolute;
-  left: 400px;
-}
 
+/******************************** Class ********************************/
+
+/********** Top Container*******/
+.intro{
+  background-color: #e4f9f5;
+  padding-top: 150px;
+}
 .top-cloud{
   position: absolute;
   right: 400px;
   top: 50px;
 }
+.bottom-cloud{
+  position: absolute;
+  left: 400px;
+}
+.mario{
+  width: 40%;
+}
 
+/********** Middle Container*******/
 .middle-container{
   margin-top: 50px;
   /* display: inline-block; */
 }
-
-.big-flat-icon{
-  width: 200px;
-}
-
-.skill{
-  padding: 100px auto 100px auto;
-}
-
 .skill-row{
-  padding-top: 50px;
+  padding-top: 10px;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: justify;
+  line-height: 2; /* no need to specify the unit*/
   /* display: inline-block; */
+}
+.experiences-icon{
+  width: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.weapon-icon{
+  width: 200px;
+  float: right;
+  margin-left: 50px;
+}
+
+
+/********** Bottom Container*******/
+.contact-me{
+  margin-bottom: 50px;
+}
+.btn{
+  text-decoration: none;
+  border-style: solid;
+  background-color: #00888d;
+  margin: 20px auto 20px auto;
+  padding: 10px;
+  color: #eaf6f6;
+  display: inline-block;
+}
+.footer-link{
+  color: #eaf6f6;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.bottom-container{
+  background-color: #11999e;
+  margin-top: 30px;
+  padding: 50px 0 70px 0;
+}
+.copyright-name{
+  color: #eaf6f6;
+  margin-top: 30px;
+}
+
+
+/********** Utilities *******/
+.underline{
+  text-decoration: underline;
 }
